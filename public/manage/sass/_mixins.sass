@@ -1,0 +1,21 @@
+@mixin transition($time: .3s)
+  transition: all $time
+
+@mixin border-radius($radius: 4)
+  border-radius: $radius * 1px
+
+@mixin border-right-radius($radius: 4)
+  border-top-right-radius: $radius * 1px
+  border-bottom-right-radius: $radius * 1px
+
+@mixin border-left-radius($radius: 4)
+  border-top-left-radius: $radius * 1px
+  border-bottom-left-radius: $radius * 1px
+
+@mixin border-top-radius($radius: 4)
+  border-top-left-radius: $radius * 1px
+  border-top-right-radius: $radius * 1px
+
+@mixin border-bottom-radius($radius: 4)
+  border-bottom-left-radius: $radius * 1px
+  border-bottom-right-radius: $radius * 1px
